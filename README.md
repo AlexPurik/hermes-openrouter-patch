@@ -3,5 +3,5 @@ Removes request headers from the installed Hermes agent to bypass 429 rate limit
 
 ## Apply the patch
 '''bash
-curl -s https://raw.githubusercontent.com/AlexPurik/hermes-agent-patch/main/patch_openrouter.py | python3
+curl -s https://raw.githubusercontent.com/AlexPurik/hermes-openrouter-patch/refs/heads/main/patch_openrouter.py | python3
 '''
